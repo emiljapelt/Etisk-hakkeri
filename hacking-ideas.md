@@ -1,0 +1,5 @@
+- philips hue ()[https://www.signify.com/global/product-security/coordinated-vulnerability-disclosure]
+- minecraft
+- serenity os
+- adam's place of work
+- 
