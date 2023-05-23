@@ -1,0 +1,2 @@
+"Use of a broken or risky cryptographic algorithm","Using broken or weak cryptographic algorithms can allow an attacker to compromise security.","error","This file makes use of a broken or weak cryptographic algorithm (specified by [[""call to RC4""|""relative:///Userland/Libraries/LibPDF/Encryption.cpp:367:13:367:16""]]).
+This file makes use of a broken or weak cryptographic algorithm (specified by [[""call to encrypt""|""relative:///Userland/Libraries/LibPDF/Encryption.cpp:368:23:368:29""]]).","/Userland/Libraries/LibPDF/Encryption.cpp","367","13","367","16"

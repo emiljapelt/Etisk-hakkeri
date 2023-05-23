@@ -1,0 +1,4 @@
+"Potential use after free","An allocated memory block is used after it has been freed. Behavior in such cases is undefined and can cause memory corruption.","warning","Memory may have been previously freed by [[""call to free""|""relative:///Tests/Kernel/crash.cpp:178:13:178:16""]].
+Memory may have been previously freed by [[""call to free""|""relative:///Tests/Kernel/crash.cpp:178:13:178:16""]].","/Tests/Kernel/crash.cpp","179","13","179","32"
+"Potential use after free","An allocated memory block is used after it has been freed. Behavior in such cases is undefined and can cause memory corruption.","warning","Memory may have been previously freed by [[""call to free""|""relative:///Tests/Kernel/crash.cpp:150:13:150:16""]].
+Memory may have been previously freed by [[""call to free""|""relative:///Tests/Kernel/crash.cpp:150:13:150:16""]].","/Tests/Kernel/crash.cpp","153","48","153","67"

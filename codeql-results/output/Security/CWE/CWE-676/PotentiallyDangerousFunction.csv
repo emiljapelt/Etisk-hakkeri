@@ -1,0 +1,7 @@
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'ctime' is potentially dangerous.","/Tests/LibC/TestLibCTime.cpp","62","19","62","23"
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'localtime' is potentially dangerous.","/Tests/LibC/TestLibCTime.cpp","53","29","53","37"
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'asctime' is potentially dangerous.","/Tests/LibC/TestLibCTime.cpp","43","19","43","25"
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'localtime' is potentially dangerous.","/Tests/LibC/TestLibCTime.cpp","43","27","43","35"
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'asctime' is potentially dangerous.","/Userland/Libraries/LibC/time.cpp","92","12","92","18"
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'localtime' is potentially dangerous.","/Userland/Libraries/LibC/time.cpp","92","20","92","28"
+"Use of potentially dangerous function","Use of a standard library function that is not thread-safe.","warning","Call to 'localtime' is potentially dangerous.","/Userland/Utilities/cal.cpp","190","16","190","24"

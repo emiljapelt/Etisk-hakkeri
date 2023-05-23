@@ -1,0 +1,132 @@
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to find_last with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to find_last with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].","/AK/DeprecatedString.h","164","104","164","109"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to create with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to create with untrusted data from [[""call to read""|""relative:///Tests/LibJS/test262-runner.cpp:674:22:674:25""]].
+Call to create with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to create with untrusted data from [[""call to read""|""relative:///Userland/Utilities/less.cpp:465:17:465:20""]].","/AK/DeprecatedString.h","66","46","66","51"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to create with untrusted data from [[""call to fgets""|""relative:///Userland/Libraries/LibC/shadow.cpp:165:19:165:23""]].","/AK/DeprecatedString.h","61","37","61","43"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to create with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to create with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to create with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to create with untrusted data from [[""call to fread""|""relative:///Userland/Libraries/LibTimeZone/TimeZone.cpp:53:24:53:28""]].
+Call to create with untrusted data from [[""call to fread""|""relative:///Userland/Libraries/LibTimeZone/TimeZone.cpp:53:24:53:28""]].","/AK/DeprecatedString.h","46","86","46","91"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to __builtin_memcpy with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].","/AK/ByteBuffer.h","243","26","243","48"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].","/AK/ByteBuffer.h","243","57","243","65"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_add_overflow with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/Checked.h","178","55","178","59"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_mul_overflow_p with untrusted data from [[""call to fread""|""relative:///Userland/Utilities/less.cpp:477:20:477:24""]].","/AK/Checked.h","345","44","345","44"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Tests/LibJS/test262-runner.cpp:674:22:674:25""]].
+Call to syscall3 with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to syscall3 with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Userland/Libraries/LibTimeZone/TimeZone.cpp:53:24:53:28""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/less.cpp:465:17:465:20""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Userland/Utilities/less.cpp:477:20:477:24""]].","/Userland/Libraries/LibSystem/syscall.h","40","59","40","73"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Tests/LibJS/test262-runner.cpp:674:22:674:25""]].
+Call to syscall3 with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to syscall3 with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Userland/Libraries/LibTimeZone/TimeZone.cpp:53:24:53:28""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/less.cpp:465:17:465:20""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Userland/Utilities/less.cpp:477:20:477:24""]].","/Userland/Libraries/LibSystem/syscall.h","40","70","40","73"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/dd.cpp:198:17:198:20""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/head.cpp:99:25:99:28""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Userland/Utilities/less.cpp:477:20:477:24""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/run-tests.cpp:206:29:206:32""]].","/Userland/Libraries/LibSystem/syscall.h","40","76","40","90"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/dd.cpp:198:17:198:20""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/head.cpp:99:25:99:28""]].
+Call to syscall3 with untrusted data from [[""call to fread""|""relative:///Userland/Utilities/less.cpp:477:20:477:24""]].
+Call to syscall3 with untrusted data from [[""call to read""|""relative:///Userland/Utilities/run-tests.cpp:206:29:206:32""]].","/Userland/Libraries/LibSystem/syscall.h","40","87","40","90"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].","/AK/ByteBuffer.h","279","76","279","81"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to __builtin_memcpy with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to __builtin_memcpy with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","299","63","299","66"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to malloc_good_size with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to malloc_good_size with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to malloc_good_size with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","312","42","312","53"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to malloc with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to malloc with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to malloc with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to malloc with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to malloc with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to malloc with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","313","53","313","64"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to __builtin_memcpy with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","318","50","318","55"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to fread""|""relative:///Tests/LibCpp/test-cpp-parser.cpp:63:27:63:31""]].
+Call to __builtin_memcpy with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to __builtin_memcpy with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","320","60","320","62"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_add_overflow_p with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to __builtin_add_overflow_p with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibLine/Editor.cpp:828:17:828:20""]].
+Call to __builtin_add_overflow_p with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].
+Call to __builtin_add_overflow_p with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to __builtin_add_overflow_p with untrusted data from [[""call to fread""|""relative:///Userland/Libraries/LibTimeZone/TimeZone.cpp:53:24:53:28""]].
+Call to __builtin_add_overflow_p with untrusted data from [[""call to read""|""relative:///Userland/Services/TelnetServer/Client.cpp:95:21:95:24""]].","/AK/Checked.h","332","44","332","44"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to kfree_sized with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","300","37","300","52"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to kfree_sized with untrusted data from [[""call to getdelim""|""relative:///Userland/Libraries/LibC/stdio.cpp:719:12:719:19""]].","/AK/ByteBuffer.h","321","43","321","60"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:209:17:209:22""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:209:17:209:22""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:209:17:209:46""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibLine/Editor.cpp:828:17:828:20""]].
+Call to malloc_good_size with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibLine/Editor.cpp:2046:26:2046:29""]].","/AK/Vector.h","648","49","648","85"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:26""]].
+Call to __builtin_memcpy with untrusted data from [[""call to __getdelim""|""file:///usr/include/x86_64-linux-gnu/bits/stdio.h:120:10:120:19""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].
+Call to __builtin_memcpy with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibCore/IODevice.cpp:136:21:136:66""]].","/AK/ByteBuffer.h","86","51","86","54"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to gai_strerror with untrusted data from [[""call to getaddrinfo""|""relative:///Userland/Libraries/LibCore/System.cpp:1416:20:1416:32""]].
+Call to gai_strerror with untrusted data from [[""call to getaddrinfo""|""relative:///Userland/Libraries/LibCore/System.cpp:1416:20:1416:32""]].","/Userland/Libraries/LibCore/System.cpp","1422","49","1422","50"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to read with untrusted data from [[""call to read""|""relative:///Userland/Utilities/head.cpp:99:25:99:28""]].","/Userland/Utilities/head.cpp","99","42","99","48"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to fwrite with untrusted data from [[""call to fread""|""relative:///Userland/Utilities/less.cpp:477:20:477:24""]].","/Userland/Utilities/less.cpp","483","38","483","38"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to putchar with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to putchar with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].","/Userland/Utilities/nl.cpp","90","21","90","34"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to contains with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to contains with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].","/Userland/Utilities/tr.cpp","151","35","151","36"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to contains with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to contains with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].","/Userland/Utilities/tr.cpp","161","105","161","106"
+"Untrusted data passed to external API","Data provided remotely is used in this external API without sanitization, which could be a security risk.","error","Call to putchar with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to putchar with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].
+Call to putchar with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:22""]].
+Call to putchar with untrusted data from [[""call to read""|""relative:///Userland/Libraries/LibC/stdio.cpp:117:17:117:40""]].","/Userland/Utilities/tr.cpp","165","17","165","18"

@@ -1,0 +1,60 @@
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'environ' is never run.","/Userland/Libraries/LibC/libcinit.cpp","20","8","20","14"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'g_gl_context' is never run.","/Userland/Libraries/LibGL/GLContext.cpp","20","54","20","65"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'gdt64ptr' is never run.","/Kernel/BootInfo.h","24","16","24","23"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'code64_sel' is never run.","/Kernel/BootInfo.h","25","16","25","25"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'code64_sel' is never run.","/Kernel/Prekernel/init.cpp","31","16","31","25"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'multiboot_copy_boot_modules_count' is never run.","/Kernel/Arch/init.cpp","89","8","89","40"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__stack_chk_guard' is never run.","/Kernel/Arch/init.cpp","77","31","77","47"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'g_kmalloc_global' is never run.","/Kernel/Heap/kmalloc.cpp","402","47","402","62"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_serial_debug_enabled' is never run.","/Kernel/kprintf.cpp","27","13","27","34"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_charstararg2' is never run.","/Tests/LibC/TestScanf.cpp","136","10","136","22"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_charstararg1' is never run.","/Tests/LibC/TestScanf.cpp","135","10","135","22"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_charstararg0' is never run.","/Tests/LibC/TestScanf.cpp","134","10","134","22"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_unsignedlonglongarg2' is never run.
+Initialization code for '_unsignedlonglongarg1' is never run.
+Initialization code for '_unsignedlonglongarg0' is never run.","/Tests/LibC/TestScanf.cpp","130","1","130","32"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_unsignedlongarg2' is never run.
+Initialization code for '_unsignedlongarg1' is never run.
+Initialization code for '_unsignedlongarg0' is never run.","/Tests/LibC/TestScanf.cpp","129","1","129","28"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_longdoublearg2' is never run.
+Initialization code for '_longdoublearg1' is never run.
+Initialization code for '_longdoublearg0' is never run.","/Tests/LibC/TestScanf.cpp","128","1","128","26"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_doublearg2' is never run.
+Initialization code for '_doublearg1' is never run.
+Initialization code for '_doublearg0' is never run.","/Tests/LibC/TestScanf.cpp","127","1","127","22"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_floatarg2' is never run.
+Initialization code for '_floatarg1' is never run.
+Initialization code for '_floatarg0' is never run.","/Tests/LibC/TestScanf.cpp","126","1","126","21"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_longlongarg2' is never run.
+Initialization code for '_longlongarg1' is never run.
+Initialization code for '_longlongarg0' is never run.","/Tests/LibC/TestScanf.cpp","125","1","125","24"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_longarg2' is never run.
+Initialization code for '_longarg1' is never run.
+Initialization code for '_longarg0' is never run.","/Tests/LibC/TestScanf.cpp","124","1","124","20"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_unsignedarg2' is never run.
+Initialization code for '_unsignedarg1' is never run.
+Initialization code for '_unsignedarg0' is never run.","/Tests/LibC/TestScanf.cpp","123","1","123","24"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '_intarg2' is never run.
+Initialization code for '_intarg1' is never run.
+Initialization code for '_intarg0' is never run.","/Tests/LibC/TestScanf.cpp","122","1","122","19"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__environ_is_malloced' is never run.","/Userland/Libraries/LibC/libcinit.cpp","21","6","21","26"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__stdio_is_initialized' is never run.","/Userland/Libraries/LibC/libcinit.cpp","22","6","22","27"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'atexit_entries' is never run.","/Userland/Libraries/LibC/cxxabi.cpp","47","21","47","34"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__auxiliary_vector' is never run.","/Userland/Libraries/LibC/libcinit.cpp","24","7","24","24"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_global_initializers_ran' is never run.","/Userland/Libraries/LibC/libcinit.cpp","23","6","23","30"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'h_errno' is never run.","/Userland/Libraries/LibC/netdb.cpp","23","5","23","11"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'h_errno' is never run.","/Userland/Libraries/LibC/netdb.cpp","25","14","25","20"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__getproto_protocol_buffer' is never run.","/Userland/Libraries/LibC/netdb.cpp","67","12","67","37"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__getserv_port_buffer' is never run.","/Userland/Libraries/LibC/netdb.cpp","52","12","52","32"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for '__gethostbyname_address' is never run.","/Userland/Libraries/LibC/netdb.cpp","29","18","29","40"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_regfree' is never run.","/Userland/Libraries/LibC/regex.cpp","18","15","18","23"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_regerror' is never run.","/Userland/Libraries/LibC/regex.cpp","17","17","17","26"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_regexec' is never run.","/Userland/Libraries/LibC/regex.cpp","16","14","16","22"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_regcomp' is never run.","/Userland/Libraries/LibC/regex.cpp","15","14","15","22"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_libregex_lock' is never run.","/Userland/Libraries/LibC/regex.cpp","13","24","13","38"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_libregex' is never run.","/Userland/Libraries/LibC/regex.cpp","12","14","12","23"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'PC' is never run.","/Userland/Libraries/LibC/termcap.cpp","17","6","17","7"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'BC' is never run.","/Userland/Libraries/LibC/termcap.cpp","19","7","19","8"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 'UP' is never run.","/Userland/Libraries/LibC/termcap.cpp","18","7","18","8"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_all_actions' is never run.","/Userland/Libraries/LibThreading/BackgroundAction.cpp","16","33","16","45"
+"Initialization code not run","Not running initialization code may lead to unexpected behavior.","warning","Initialization code for 's_background_thread' is never run.","/Userland/Libraries/LibThreading/BackgroundAction.cpp","17","27","17","45"

@@ -1,0 +1,6 @@
+"Open descriptor never closed","Functions that always return before closing the socket they opened leak resources.","warning","This file descriptor is never closed.","/Tests/Kernel/bind-local-socket-to-symlink.cpp","23","14","23","19"
+"Open descriptor never closed","Functions that always return before closing the socket they opened leak resources.","warning","This file descriptor is never closed.","/Userland/Libraries/LibC/net.cpp","41","24","41","29"
+"Open descriptor never closed","Functions that always return before closing the socket they opened leak resources.","warning","This file descriptor is never closed.","/Userland/Libraries/LibC/net.cpp","20","24","20","29"
+"Open descriptor never closed","Functions that always return before closing the socket they opened leak resources.","warning","This file descriptor is never closed.","/Userland/Services/DHCPClient/DHCPv4Client.cpp","73","14","73","19"
+"Open descriptor never closed","Functions that always return before closing the socket they opened leak resources.","warning","This file descriptor is never closed.","/Userland/Services/DHCPClient/DHCPv4Client.cpp","40","14","40","19"
+"Open descriptor never closed","Functions that always return before closing the socket they opened leak resources.","warning","This file descriptor is never closed.","/Userland/Utilities/ntpquery.cpp","139","14","139","19"

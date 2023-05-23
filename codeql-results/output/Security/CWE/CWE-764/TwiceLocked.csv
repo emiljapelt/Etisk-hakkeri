@@ -1,0 +1,5 @@
+"Mutex locked twice","Calling the lock method of a mutex twice in succession might cause a deadlock.","error","Mutex m_lock might be locked already, which could cause a deadlock.","/Kernel/Thread.h","471","43","471","48"
+"Mutex locked twice","Calling the lock method of a mutex twice in succession might cause a deadlock.","error","Mutex m_lock might be locked already, which could cause a deadlock.","/Kernel/Locking/Mutex.h","143","9","143","14"
+"Mutex locked twice","Calling the lock method of a mutex twice in succession might cause a deadlock.","error","Mutex m_lock might be locked already, which could cause a deadlock.","/Kernel/FileSystem/VirtualFileSystem.cpp","157","13","157","18"
+"Mutex locked twice","Calling the lock method of a mutex twice in succession might cause a deadlock.","error","Mutex m_lock might be locked already, which could cause a deadlock.","/Kernel/Locking/Spinlock.h","135","39","135","44"
+"Mutex locked twice","Calling the lock method of a mutex twice in succession might cause a deadlock.","error","Mutex m_mutex might be locked already, which could cause a deadlock.","/Userland/Libraries/LibThreading/Mutex.h","66","33","66","39"

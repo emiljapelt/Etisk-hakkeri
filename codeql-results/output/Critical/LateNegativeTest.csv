@@ -1,0 +1,1 @@
+"Pointer offset used before it is checked","Accessing a pointer or array using an offset before checking if the value is positive may result in unexpected behavior.","warning","Variable 'i' is used as an array-offset before it is tested for being negative (test on line 209).","/Userland/Libraries/LibGUI/Calendar.cpp","207","13","207","27"

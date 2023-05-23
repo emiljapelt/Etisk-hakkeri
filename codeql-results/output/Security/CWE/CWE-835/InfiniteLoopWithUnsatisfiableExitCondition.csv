@@ -1,0 +1,1 @@
+"Infinite loop with unsatisfiable exit condition","A loop with an unsatisfiable exit condition could prevent the program from terminating, making it vulnerable to a denial of service attack.","warning","Function exit is unreachable because this condition is always true.","/AK/FloatingPointStringConversions.cpp","1632","32","1632","47"
