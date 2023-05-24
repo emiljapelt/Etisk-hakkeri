@@ -1,0 +1,621 @@
+hojelse@hojelse:~/serenity$ ./Meta/serenity.sh run
+[0/5] Performing build step for 'lagom'
+ninja: no work to do.
+[1/5] Performing install step for 'lagom'
+[0/1] Install the project...
+-- Install configuration: ""
+[2/5] Performing build step for 'serenity'
+[0/2] Re-checking globbed directories...
+[1/1] cd /home/hojelse/serenity/Build/x86_64/Userland/Libraries/LibC && /home/hojelse/serenity/Toolchain/Local/x86_64/bin/x86_64-pc-serenity-gcc-ar -x /home/hojelse/sereni...anitizerStatic.a && /home/hojelse/serenity/Toolchain/Local/x86_64/bin/x86_64-pc-serenity-gcc-ar -rcs /home/hojelse/serenity/Build/x86_64/Userland/Libraries/LibC/libc.a *.o
+[3/5] Performing install step for 'serenity'
+[0/2] Re-checking globbed directories...
+[1/2] Install the project...
+-- Install configuration: ""
+[5/5] Completed 'serenity'
+ninja: Entering directory `/home/hojelse/serenity/Build/x86_64'
+[0/2] Re-checking globbed directories...
+[1/2] Install the project...
+-- Install configuration: ""
+ninja: Entering directory `/home/hojelse/serenity/Build/x86_64'
+[0/2] Re-checking globbed directories...
+[0/1] cd /home/hojelse/serenity/Build/x86_64 && /home/hojelse/serenity/Toolchain/Local/cmake/bin/cmake -E env SERENITY_SOURCE_DIR=/home/hojelse/serenity SERENITY_ARCH=x86_64 SERENITY_TOOLCHAIN=GNU LLVM_VERSION=13.1.0 /home/hojelse/serenity/Meta/build-image-qemu.sh
+[sudo] password for hojelse: 
+checking existing image
+e2fsck 1.46.5 (30-Dec-2021)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+_disk_image: 15475/107200 files (5.6% non-contiguous), 188387/316591 blocks
+done
+mounting filesystem... done
+installing base system... done
+creating initial filesystem structure... done
+creating utmp file... done
+setting up device nodes folder... done
+setting up sysfs folder... done
+installing users... done
+adding some desktop icons... done
+installing shortcuts... done
+installing 'checksum' variants... done
+unmounting filesystem... done
+ninja: Entering directory `/home/hojelse/serenity/Build/x86_64'
+[0/2] Re-checking globbed directories...
+[0/1] cd /home/hojelse/serenity/Build/x86_64 && /home/hojelse/serenity/Toolchain/Local/cmake/bin/cmake -E env SERENITY_ARCH=x86_64 /home/hojelse/serenity/Meta/run.sh
+qemu: module ui-ui-none not found, do you want to install qemu-system-gui package?
+qemu-system-x86_64: warning: nic e1000.0 has no peer
+[Kernel]: Loading kernel symbol table...
+[Kernel]: CPU[0]: Supported features: sse3 pclmulqdq vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline aes xsave osxsave avx f16c rdrand hypervisor fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss htt fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt umip md_clear spec_ctrl stibp ia32_arch_capabilities ssbd lahf_lm abm 3dnowprefetch syscall nx pdpe1gb rdtscp lm constant_tsc
+[Kernel]: CPU[0]: Physical address bit width: 39
+[Kernel]: CPU[0]: Virtual address bit width: 48
+[Kernel]: Initializing unhandled interrupt handlers
+[Kernel]: CPU[0]: CPUID hypervisor signature 'KVMKVMKVM', max leaf 0x40000001
+[Kernel]: Kernel Commandline: Kernel/Prekernel/Prekernel hello
+[Kernel]: Initialize MMU
+[Kernel]: MM: Multiboot mmap: address=0x0000000000000000, length=654336, type=1
+[Kernel]: MM: Got an unaligned physical_region from the bootloader; correcting length 654336 by 3072 bytes
+[Kernel]: MM: Multiboot mmap: address=0x000000000009fc00, length=1024, type=2
+[Kernel]: MM: Multiboot mmap: address=0x00000000000f0000, length=65536, type=2
+[Kernel]: MM: Multiboot mmap: address=0x0000000000100000, length=1072562176, type=1
+[Kernel]: MM: Multiboot mmap: address=0x000000003ffe0000, length=131072, type=2
+[Kernel]: MM: Multiboot mmap: address=0x00000000feffc000, length=16384, type=2
+[Kernel]: MM: Multiboot mmap: address=0x00000000fffc0000, length=262144, type=2
+[Kernel]: MM: Contiguous reserved range from P000000000009fc00, length is 394240
+[Kernel]: MM: Contiguous reserved range from P000000003ffe0000, length is 3221356544
+[Kernel]: MM: boot_pml4t @ P0000000000115000
+[Kernel]: MM: boot_pdpt @ P0000000000116000
+[Kernel]: MM: boot_pd0 @ P0000000000117000
+[Kernel]: MM: boot_pd_kernel @ P0000000000138000
+[Kernel]: MM: Physical page entries: 0x0000002000200000 - 0x0000002000a00fff (size 0x0000000000801000)
+[Kernel]: MM: Low memory range @ P0000000000000000 - P00000000000fffff (size 0x100000)
+[Kernel]: MM: Kernel range @ P0000000000200000 - P0000000002f37fff (size 0x2d38000)
+[Kernel]: MM: Physical Pages range @ P0000000002f39000 - P000000000373efff (size 0x806000)
+[Kernel]: MM: User physical region: P0000000000101000 - P00000000001fefff (size 0xfe000)
+[Kernel]: MM: User physical region: P000000000373f000 - P000000003ffdffff (size 0x3c8a1000)
+[Kernel]:  * 60x PhysicalZone (16 MiB) @ 000000000373f000-000000003e73efff
+[Kernel]:  * 8x PhysicalZone (1 MiB) @ 000000003f73f000-000000003fe3efff
+[Kernel]: VGA Text mode console initialized!
+[Kernel]: Starting SerenityOS...
+[Kernel]: Early access to ACPI tables for interrupt setup
+[Kernel]: Can't enable SMP mode without IOAPIC mode being enabled
+[Kernel]: Interrupts: Switch to IOAPIC mode
+[Kernel]: Interrupts: MADT @ P 0x000000003ffe37ef
+[Kernel]: PIC: Cascading mode, vectors 0x50-0x5f
+[Kernel]: IOAPIC found @ MADT entry 2, MMIO Registers @ P00000000fec00000
+[Kernel]: IOAPIC ID: 0x0
+[Kernel]: IOAPIC Version: 0x11, redirection entries: 24
+[Kernel]: IOAPIC Arbitration ID 0x0
+[Kernel]: Interrupts: Overriding INT 0x0 with GSI 2, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0x5 with GSI 5, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0x9 with GSI 9, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0xa with GSI 10, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0xb with GSI 11, for bus 0x0
+[Kernel]: Interrupts: Detected Dual i8259 - Disabled
+[Kernel]: Interrupts: Detected IOAPIC
+[Kernel]: MultiProcessor: Floating Pointer Structure @ P00000000000f5b70
+[Kernel]: Features 0, IMCR? 0
+[Kernel]: MultiProcessor: Get PCI IOAPIC redirections
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 7, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 4, IOAPIC 0, IOAPIC INTIN 9
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 12, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 16, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 20, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 24, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 32, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 1, trigger mode 0, INT 3, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 1, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 9
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 3, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 4, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 5, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 6, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 8, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: ACPI: Using RSDP @ P00000000000f59b0
+[Kernel]: ACPI: Main Description Table valid? true
+[Kernel]: ACPI: Using RSDT, enumerating tables @ P000000003ffe38cf
+[Kernel]: ACPI: RSDT revision 1, total length: 52
+[Kernel]: ACPI: Initializing Fixed ACPI data
+[Kernel]: ACPI: Fixed ACPI data, Revision 1, length: 116 bytes
+[Kernel]: ACPI: Using DSDT @ P000000003ffe0040 with 14139 bytes
+[Kernel]: RTC:  Year: 2023, month: 5, day: 24, hour: 6, minute: 39, second: 29
+[Kernel]: HPET @ P000000003ffe386f
+[Kernel]: HPET: Minimum clock tick - 0
+[Kernel]: HPET: Timers count - 3
+[Kernel]: HPET: Main counter size: 64-bit
+[Kernel]: HPET: Timer[0] comparator size: 64-bit, mode: 64-bit
+[Kernel]: HPET: Timer[1] comparator size: 64-bit, mode: 64-bit
+[Kernel]: HPET: Timer[2] comparator size: 64-bit, mode: 64-bit
+[Kernel]: HPET: frequency 100000000 Hz (100 MHz) resolution: 10 ns
+[Kernel]: HPET: Setting appropriate functions to timers.
+[Kernel]: Time: Scanning for periodic timers
+[Kernel]: Time: Scanning for non-periodic timers
+0.000 [Kernel]: APICTimer: Using HPET as calibration source
+0.000 [Kernel]: KernelRng: Using RDSEED as entropy source
+0.000 [Kernel]: APICTimer: Ticks per second: 254 (3.927190ms)
+0.000 [Kernel]: APICTimer: Bus clock speed: 981.764640 MHz
+0.000 [Kernel]: APICTimer: CPU clock speed: 2756.583340 MHz
+0.000 [Kernel]: Time: Using APIC timer as system timer
+0.000 [#0 colonel(0:0)]: Scheduler[0]: idle loop running
+0.112 [init_stage2(1:1)]: Testing PCI via manual probing...
+0.112 [init_stage2(1:1)]: PCI IO supported
+0.120 [init_stage2(1:1)]: PCI [0000:00:00:00] PCI::HardwareID [8086:1237]
+0.120 [init_stage2(1:1)]: PCI [0000:00:01:00] PCI::HardwareID [8086:7000]
+0.126 [init_stage2(1:1)]: PCI [0000:00:01:01] PCI::HardwareID [8086:7010]
+0.126 [init_stage2(1:1)]: PCI [0000:00:01:02] PCI::HardwareID [8086:7020]
+0.128 [init_stage2(1:1)]: PCI [0000:00:01:03] PCI::HardwareID [8086:7113]
+0.128 [init_stage2(1:1)]: PCI [0000:00:02:00] PCI::HardwareID [1234:1111]
+0.128 [init_stage2(1:1)]: PCI [0000:00:03:00] PCI::HardwareID [1af4:1003]
+0.128 [init_stage2(1:1)]: PCI [0000:00:04:00] PCI::HardwareID [1af4:1005]
+0.132 [init_stage2(1:1)]: PCI [0000:00:05:00] PCI::HardwareID [8086:293e]
+0.132 [init_stage2(1:1)]: PCI [0000:00:06:00] PCI::HardwareID [1b36:0001]
+0.132 [init_stage2(1:1)]: PCI [0000:01:00:00] PCI::HardwareID [8086:100e]
+0.132 [init_stage2(1:1)]: PCI [0000:01:01:00] PCI::HardwareID [8086:244e]
+0.136 [init_stage2(1:1)]: PCI [0000:02:00:00] PCI::HardwareID [1b36:0007]
+0.136 [init_stage2(1:1)]: PCI [0000:00:07:00] PCI::HardwareID [8086:244e]
+0.136 [init_stage2(1:1)]: PCI [0000:03:00:00] PCI::HardwareID [1b36:0007]
+0.136 [init_stage2(1:1)]: PCI [0000:03:01:00] PCI::HardwareID [8086:2922]
+0.140 [init_stage2(1:1)]: PCI [0000:00:08:00] PCI::HardwareID [8086:100e]
+0.140 [init_stage2(1:1)]: VMWareBackdoor: Enabling absolute mouse mode
+0.140 [#0 init_stage2(1:1)]: I8042: Dual channel controller
+0.145 [init_stage2(1:1)]: PS2MouseDevice: Mouse wheel enabled!
+0.145 [init_stage2(1:1)]: PS2MouseDevice: 5 buttons enabled!
+0.184 [#0 init_stage2(1:1)]: Framebuffer Console: taking 3145728 bytes
+0.186 [#0 init_stage2(1:1)]: Framebuffer Console: taking 3145728 bytes
+0.192 [#0 init_stage2(1:1)]: VC 0: Resized to 113 x 48
+0.192 [#0 init_stage2(1:1)]: VC 1: Resized to 113 x 48
+0.194 [#0 init_stage2(1:1)]: VC 2: Resized to 113 x 48
+0.194 [#0 init_stage2(1:1)]: VC 3: Resized to 113 x 48
+0.194 [#0 init_stage2(1:1)]: VC 4: Resized to 113 x 48
+0.194 [#0 init_stage2(1:1)]: VC 5: Resized to 113 x 48
+0.199 [init_stage2(1:1)]: UHCI: PCI [0000:00:01:02]: Controller found PCI::HardwareID [8086:7020] @ PCI [0000:00:01:02]
+0.202 [init_stage2(1:1)]: UHCI: PCI [0000:00:01:02]: I/O base 0x000000200ba9f080
+0.202 [init_stage2(1:1)]: UHCI: PCI [0000:00:01:02]: Interrupt line: 11
+0.320 [#0 init_stage2(1:1)]: UHCI: Allocated framelist at physical address P00000000080bc000
+0.320 [#0 init_stage2(1:1)]: UHCI: Framelist is at virtual address V0x0000002000af9000
+0.320 [#0 init_stage2(1:1)]: UHCI: QH(0x2000afafc0) @ 0x80bbfc0: link_ptr=0x80bbfa2, element_link_ptr=0x0001
+0.320 [#0 init_stage2(1:1)]: UHCI: QH(0x2000afafa0) @ 0x80bbfa0: link_ptr=0x80bbf82, element_link_ptr=0x0001
+0.320 [#0 init_stage2(1:1)]: UHCI: QH(0x2000afaf80) @ 0x80bbf80: link_ptr=0x80bbf62, element_link_ptr=0x0001
+0.320 [#0 init_stage2(1:1)]: UHCI: QH(0x2000afaf60) @ 0x80bbf60: link_ptr=0x80bbf82, element_link_ptr=0x80bafe0
+0.324 [#0 init_stage2(1:1)]: UHCI: Reset completed
+0.324 [#0 init_stage2(1:1)]: UHCI: Started
+0.324 [#0 VFS Sync Task(4:4)]: VFS SyncTask is running
+0.324 [#0 init_stage2(1:1)]: BIOSSysFSDirectory: SMBIOS 32bit Entry point @ P00000000000f59d0
+0.324 [#0 init_stage2(1:1)]: BIOSSysFSDirectory: Data table @ P00000000000f59f0
+0.324 [#0 init_stage2(1:1)]: VirtIOConsole: Found @ PCI [0000:00:03:00]
+0.344 [#0 init_stage2(1:1)]: VirtIO::Console: cols: 0, rows: 0, max nr ports 2
+0.344 [#0 init_stage2(1:1)]: VirtIORNG: Found @ PCI [0000:00:04:00]
+0.367 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: Found @ PCI [0000:01:00:00]
+0.367 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: IO base: 0x000000200ba9ccc0
+0.371 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: Interrupt line: 10
+0.371 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: Has EEPROM? true
+0.371 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: MAC address: {52:54:00:12:34:56}
+0.377 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: Found @ PCI [0000:00:08:00]
+0.379 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: IO base: 0x000000200ba9cc00
+0.383 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: Interrupt line: 11
+0.383 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: Has EEPROM? true
+0.383 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: MAC address: {52:54:00:12:34:57}
+0.383 [init_stage2(1:1)]: IntelHDA: PCI [0000:00:05:00]: Intel High Definition Audio specification v1.0
+0.387 [init_stage2(1:1)]: IntelHDA: PCI [0000:00:05:00]: Found codec on address #0
+0.693 [init_stage2(1:1)]: IntelHDA: PCI [0000:00:05:00]: Failed to set up an output audio channel: Error(errno=69)
+0.693 [init_stage2(1:1)]: Failed to initialize audio device (PCI [0000:00:05:00] PCI::HardwareID [8086:293e]): Error(errno=69)
+0.693 [#0 init_stage2(1:1)]: AudioManagement: no audio controller was initialized.
+0.693 [#0 init_stage2(1:1)]: IDE controller @ PCI [0000:00:01:01]: interrupt line was set to 0
+0.693 [#0 init_stage2(1:1)]: IDE controller @ PCI [0000:00:01:01]: ISA Compatibility mode-only controller, supports bus mastering
+0.697 [#0 init_stage2(1:1)]: IDE controller @ PCI [0000:00:01:01]: bus master base was set to IO e0c0
+0.697 [#0 init_stage2(1:1)]: ATAPort: device found: Name=QEMU HARDDISK, Capacity=1296757248, Capabilities=0x0b00
+1.414 [#0 init_stage2(1:1)]: Allocated SDHC DMA buffer at P000000000805f000
+1.414 [#0 init_stage2(1:1)]: Setting SDHostController to operate using ADMA2 with 32 bit addressing
+1.416 [#0 init_stage2(1:1)]: Allocated SDHC DMA buffer at P000000000803f000
+1.416 [#0 init_stage2(1:1)]: Setting SDHostController to operate using ADMA2 with 32 bit addressing
+1.416 [init_stage2(1:1)]: AHCI: PCI [0000:03:01:00]: PCI [0000:03:01:00]: AHCI controller reset
+1.416 [init_stage2(1:1)]: AHCI Port 1: Device not detected, Phy not enabled
+1.465 [init_stage2(1:1)]: AHCI Port 2: Device not detected, Phy not enabled
+1.511 [init_stage2(1:1)]: AHCI Port 3: Device not detected, Phy not enabled
+1.557 [init_stage2(1:1)]: AHCI Port 4: Device not detected, Phy not enabled
+1.603 [init_stage2(1:1)]: AHCI Port 5: Device not detected, Phy not enabled
+1.652 [init_stage2(1:1)]: AHCI Port 6: Device not detected, Phy not enabled
+1.699 [#0 init_stage2(1:1)]: PCI [0000:03:01:00]: AHCI command list entries count - 32
+1.699 [#0 init_stage2(1:1)]: Master Boot Record: invalid signature
+1.699 [#0 init_stage2(1:1)]: Master Boot Record: invalid signature
+1.706 [init_stage2(1:1)]: VirtualFileSystem: mounted root(1) from Ext2FS (device:3,0)
+1.706 [init_stage2(1:1)]: Write-protected kernel symbols after init.
+1.706 [init_stage2(1:1)]: Unmapped 1908 KiB of kernel text after init! :^)
+1.726 [Network Task(9:9)]: NetworkTask: E1000NetworkAdapter network adapter found: hw={52:54:00:12:34:56}
+1.726 [Network Task(9:9)]: NetworkTask: E1000NetworkAdapter network adapter found: hw={52:54:00:12:34:57}
+1.726 [Network Task(9:9)]: NetworkTask: LoopbackAdapter network adapter found: hw={13:55:02:09:55:aa}
+1.938 SystemServer(8:8): Spawning mount -a to mount all filesystems.
+1.957 mount(10:10): Mounting all filesystems...
+1.969 mount(10:10): Skipping mounting root
+1.969 mount(10:10): Mounting /bin (bind) on /bin
+1.969 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:75041 at inode 1:75041
+1.969 mount(10:10): Mounting /etc (bind) on /etc
+1.969 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:10721 at inode 1:10721
+1.974 mount(10:10): Mounting /home (bind) on /home
+1.974 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:21441 at inode 1:21441
+1.974 mount(10:10): Mounting /root (bind) on /root
+1.977 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:42881 at inode 1:42881
+1.977 mount(10:10): Mounting /var (bind) on /var
+1.977 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:42884 at inode 1:42884
+1.977 mount(10:10): Mounting /www (bind) on /www
+1.977 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:64321 at inode 1:64321
+1.981 mount(10:10): Mounting /usr/Tests (bind) on /usr/Tests
+1.981 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:53968 at inode 1:53968
+1.981 mount(10:10): Mounting /usr/local (bind) on /usr/local
+1.981 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:86682 at inode 1:86682
+1.997 [#0 SystemServer(8:8)]: VirtualFileSystem: Remounting inode 1:2
+1.997 [#0 SystemServer(8:8)]: mount proc @ /proc
+1.997 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 2, Mounting ProcFS at inode 1:96481 with flags 4
+1.997 [#0 SystemServer(8:8)]: mount sys @ /sys
+1.997 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 3, Mounting SysFS at inode 1:96484 with flags 0
+2.001 [#0 SystemServer(8:8)]: mount ram @ /dev
+2.001 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 4, Mounting RAMFS at inode 1:96483 with flags 262
+2.001 [#0 SystemServer(8:8)]: mount ram @ /tmp
+2.001 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 5, Mounting RAMFS at inode 1:96482 with flags 5
+2.020 [#0 SystemServer(8:8)]: mount devpts @ /dev/pts
+2.020 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 6, Mounting DevPtsFS at inode 4:33 with flags 0
+2.063 SystemServer(8:8): Creating /tmp/coredump directory
+2.063 SystemServer(8:8): Setting /tmp/coredump as the coredump directory
+2.063 SystemServer(8:8): Creating /tmp/semaphore directory
+2.068 SystemServer(8:8): Read system_mode: graphical
+2.091 SystemServer(8:8): Activating 6 services...
+2.205 SystemServer(8:8): Service KeyboardPreferenceLoader has exited with exit code 0
+2.287 LookupServer(13:13): Using network config file at /etc/LookupServer.ini
+2.299 [#0 keymap(17:17)]: New Character map 'en-us' passed in by client.
+2.350 NetworkServer(16:16): Interfaces to configure: [ ep1s0 ]
+2.350 NetworkServer(16:16): Disabling interface ep1s0
+2.394 NetworkServer(16:16): Config for interface ep0s8 doesn't exist, enabling DHCP for it
+2.397 NetworkServer(16:16): Disabling interface ep0s8
+2.409 NetworkServer(16:16): Running DHCPClient for interfaces: [ ep0s8 ]
+2.417 SystemServer(8:8): Service NetworkServer has exited with exit code 0
+2.444 DHCPClient(23:23): We were offered 10.0.2.15 for 2152792320
+2.444 DHCPClient(23:23): Leasing the IP 10.0.2.15 for adapter ep0s8
+2.621 WindowServer(11:11): update_virtual_and_physical_rects for screen #0: [0,0 1024x768]
+2.629 [#0 WindowServer(11:11)]: Framebuffer Console: taking 3145728 bytes
+2.641 WindowServer(11:11): update_virtual_and_physical_rects for screen #0: [0,0 1024x768]
+2.649 WindowServer(11:11): update_virtual_and_physical_rects for screen #0: [0,0 1024x768]
+3.011 WindowServer(11:11): Entering WindowServer main loop
+3.137 LoginServer(24:24): login with sid=24
+3.147 SystemServer(24:24): Activating 24 services...
+3.426 AudioServer(27:27): Exiting with runtime error: open: Permission denied (errno=13)
+3.430 SystemServer(24:24): Service AudioServer has exited with exit code 256
+3.430 SystemServer(24:24): Trying again
+3.473 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+3.501 AudioServer(39:39): Exiting with runtime error: open: Permission denied (errno=13)
+3.501 SystemServer(24:24): Service AudioServer has exited with exit code 256
+3.501 SystemServer(24:24): Third time's the charm?
+3.603 ResourceGraph.Applet(32:32): Create applet: 0 with spec 'CPUGraph,#00bb00'
+3.642 AudioServer(40:40): Exiting with runtime error: open: Permission denied (errno=13)
+3.646 SystemServer(24:24): Service AudioServer has exited with exit code 256
+3.646 SystemServer(24:24): Giving up on AudioServer. Good luck!
+3.795 ResourceGraph.Applet(32:32): Create applet: 1 with spec 'MemoryGraph,#00bbbb'
+3.795 ResourceGraph.Applet(32:32): Create applet: 2 with spec 'NetworkGraph,#bbbb00'
+3.890 ClipboardHistory.Applet(38:38): Unable to load clipboard history: open: No such file or directory (errno=2)
+3.960 utmpupdate(43:43): Updating utmp from UID=100 GID=100 EGID=5 PID=42
+4.479 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+132.603 Shell(42:42): open() failed for '/svg' with No such file or directory (errno=2)
+137.724 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+143.749 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+147.770 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+156.794 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+157.811 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+174.677 WebSocket(52:52): Loaded 137 of 137 (100%) provided CA Certificates
+174.677 RequestServer(53:53): Loaded 137 of 137 (100%) provided CA Certificates
+177.882 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+187.715 RequestServer(55:55): Loaded 137 of 137 (100%) provided CA Certificates
+188.057 WebContent(57:57): Proxy mappings updated: proxies: [  ]
+188.237 WebContent(57:57): ResourceLoader: Starting load of: "file:///home/anon/mal.html"
+188.308 WebContent(57:57): ResourceLoader: Finished load of: "file:///home/anon/mal.html", Duration: 71ms
+188.398 WebSocket(58:58): Loaded 137 of 137 (100%) provided CA Certificates
+188.398 RequestServer(59:59): Loaded 137 of 137 (100%) provided CA Certificates
+197.954 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+249.092 WebContent(51:51): AttributeParser::parse_drawto failed to match: '<'
+249.095 WebContent(51:51): ASSERTION FAILED: TODO
+./Userland/Libraries/LibWeb/SVG/AttributeParser.cpp:153
+249.100 [#0 WebContent(51:51)]: Terminating WebContent(51) due to signal 6
+249.103 [#0 Finalizer Task(5:5)]: Backtrace:
+0x00000000deadc0de  Kernel::Processor::switch_context(Kernel::Thread*&, Kernel::Thread*&) + 0x3d3
+0x00000000deadc0de  Kernel::Scheduler::context_switch(Kernel::Thread*) [clone .localalias] + 0x1f2
+0x00000000deadc0de  Kernel::Scheduler::pick_next() [clone .localalias] + 0x178
+0x00000000deadc0de  Kernel::Processor::clear_critical() + 0x114
+0x00000000deadc0de  Kernel::Thread::die_if_needed() [clone .localalias] + 0x322
+0x00000000deadc0de  syscall_handler + 0x1358
+0x00000000deadc0de  syscall_entry + 0x51
+0x00000015e72964ae  /usr/lib/libc.so: .text + 0x24ae
+0x00000015e729c996  /usr/lib/libc.so: .text + 0x8996
+0x0000000f5b361f61  /usr/lib/libweb.so.serenity: .text + 0x4bff61
+0x0000000f5b362088  /usr/lib/libweb.so.serenity: .text + 0x4c0088
+0x0000000f5b36b4cd  /usr/lib/libweb.so.serenity: .text + 0x4c94cd
+0x0000000f5b027c02  /usr/lib/libweb.so.serenity: .text + 0x185c02
+0x0000000f5b20d018  /usr/lib/libweb.so.serenity: .text + 0x36b018
+0x0000000f5b1fb92b  /usr/lib/libweb.so.serenity: .text + 0x35992b
+0x0000000f5b1fc9c0  /usr/lib/libweb.so.serenity: .text + 0x35a9c0
+0x0000000f5b1fe371  /usr/lib/libweb.so.serenity: .text + 0x35c371
+0x0000000f5b20ad1b  /usr/lib/libweb.so.serenity: .text + 0x368d1b
+0x0000000f5b20b391  /usr/lib/libweb.so.serenity: .text + 0x369391
+0x0000000f5b2e8868  /usr/lib/libweb.so.serenity: .text + 0x446868
+0x000000116c0ef3cc  /bin/WebContent: .text + 0x493cc
+0x0000000751903d40  /usr/lib/libipc.so.serenity: .text + 0x1d40
+0x00000009d4b73069  /usr/lib/libcore.so.serenity: .text + 0x41069
+0x00000009d4b4ffe4  /usr/lib/libcore.so.serenity: .text + 0x1dfe4
+0x00000009d4b4c99e  /usr/lib/libcore.so.serenity: .text + 0x1a99e
+0x000000116c14de51  /bin/WebContent: .text + 0xa7e51
+0x000000116c0a771b  /bin/WebContent: .text + 0x171b
+0x000000116c0a78b9  /bin/WebContent: .text + 0x18b9
+249.129 [#0 Finalizer Task(5:5)]: Generating coredump for pid: 51
+249.138 CrashDaemon(34:34): New coredump file: /tmp/coredump/WebContent_51_1684910618
+249.256 TextEditor(49:49): WebContent process crashed!
+249.629 CrashReporter(61:61): Started Thread "Background Thread"(65)
+250.073 WebSocket(63:63): Loaded 137 of 137 (100%) provided CA Certificates
+250.104 RequestServer(64:64): Loaded 137 of 137 (100%) provided CA Certificates
+266.661 [#0 CrashReporter(61:65)]: MM: Unable to commit 16 pages, have only 14
+266.661 [#0 CrashReporter(61:65)]: RequestServer(64) resident:978, shared:978, virtual:2012
+266.661 [#0 CrashReporter(61:65)]: WebSocket(63) resident:921, shared:921, virtual:1853
+266.661 [#0 CrashReporter(61:65)]: WebContent(62) resident:7345, shared:7345, virtual:19210
+266.661 [#0 CrashReporter(61:65)]: CrashReporter(61) resident:121050, shared:121050, virtual:155439
+266.661 [#0 CrashReporter(61:65)]: FileSystemAccessServer(60) resident:1654, shared:1654, virtual:4182
+266.661 [#0 CrashReporter(61:65)]: RequestServer(59) resident:978, shared:978, virtual:2012
+266.661 [#0 CrashReporter(61:65)]: WebSocket(58) resident:921, shared:921, virtual:1853
+266.661 [#0 CrashReporter(61:65)]: WebContent(57) resident:8870, shared:8870, virtual:20722
+266.661 [#0 CrashReporter(61:65)]: SQLServer(56) resident:821, shared:821, virtual:2314
+266.661 [#0 CrashReporter(61:65)]: RequestServer(55) resident:978, shared:978, virtual:2012
+266.661 [#0 CrashReporter(61:65)]: Browser(54) resident:7037, shared:7037, virtual:18845
+266.661 [#0 CrashReporter(61:65)]: FileSystemAccessServer(50) resident:1653, shared:1653, virtual:4182
+266.661 [#0 CrashReporter(61:65)]: TextEditor(49) resident:6501, shared:6501, virtual:18968
+266.661 [#0 CrashReporter(61:65)]: Shell(42) resident:980, shared:980, virtual:2534
+266.661 [#0 CrashReporter(61:65)]: LaunchServer(41) resident:1741, shared:1741, virtual:4267
+266.661 [#0 CrashReporter(61:65)]: ClipboardHistory.Applet(38) resident:1938, shared:1938, virtual:6749
+266.661 [#0 CrashReporter(61:65)]: Terminal(37) resident:2523, shared:2523, virtual:7305
+266.661 [#0 CrashReporter(61:65)]: Clipboard(36) resident:503, shared:503, virtual:1330
+266.661 [#0 CrashReporter(61:65)]: Taskbar(35) resident:2459, shared:2459, virtual:7272
+266.661 [#0 CrashReporter(61:65)]: CrashDaemon(34) resident:729, shared:729, virtual:2233
+266.661 [#0 CrashReporter(61:65)]: Audio.Applet(33) resident:1705, shared:1705, virtual:4370
+266.661 [#0 CrashReporter(61:65)]: ResourceGraph.Applet(32) resident:1894, shared:1894, virtual:6688
+266.661 [#0 CrashReporter(61:65)]: FileManager (Desktop)(31) resident:3918, shared:3918, virtual:8762
+266.661 [#0 CrashReporter(61:65)]: Keymap.Applet(30) resident:1886, shared:1886, virtual:6691
+266.661 [#0 CrashReporter(61:65)]: ConfigServer(29) resident:589, shared:589, virtual:1469
+266.661 [#0 CrashReporter(61:65)]: WorkspacePicker.Applet(28) resident:1880, shared:1880, virtual:6684
+266.661 [#0 CrashReporter(61:65)]: SpiceAgent(26) resident:1684, shared:1684, virtual:4198
+266.661 [#0 CrashReporter(61:65)]: Network.Applet(25) resident:1891, shared:1891, virtual:6703
+266.661 [#0 CrashReporter(61:65)]: SystemServer(24) resident:513, shared:513, virtual:1370
+266.661 [#0 CrashReporter(61:65)]: DHCPClient(23) resident:470, shared:470, virtual:1321
+266.661 [#0 CrashReporter(61:65)]: Clipboard(14) resident:488, shared:488, virtual:1330
+266.661 [#0 CrashReporter(61:65)]: LookupServer(13) resident:526, shared:526, virtual:1387
+266.661 [#0 CrashReporter(61:65)]: LoginServer(12) resident:2069, shared:2069, virtual:6856
+266.661 [#0 CrashReporter(61:65)]: WindowServer(11) resident:8427, shared:7659, virtual:12572
+266.661 [#0 CrashReporter(61:65)]: Network Task(9) resident:0, shared:0, virtual:0
+266.661 [#0 CrashReporter(61:65)]: SystemServer(8) resident:506, shared:506, virtual:1370
+266.661 [#0 CrashReporter(61:65)]: UHCI Hot Plug Task(7) resident:0, shared:0, virtual:0
+266.661 [#0 CrashReporter(61:65)]: UHCI Async Poll Task(6) resident:0, shared:0, virtual:0
+266.661 [#0 CrashReporter(61:65)]: Finalizer Task(5) resident:0, shared:0, virtual:0
+266.661 [#0 CrashReporter(61:65)]: VFS Sync Task(4) resident:0, shared:0, virtual:0
+266.661 [#0 CrashReporter(61:65)]: ATA WorkQueue Task(3) resident:0, shared:0, virtual:0
+266.661 [#0 CrashReporter(61:65)]: IO WorkQueue Task(2) resident:0, shared:0, virtual:0
+266.794 CrashReporter(61:65): ASSERTION FAILED: !_temporary_result.is_error()
+././AK/RedBlackTree.h:499
+266.795 [#0 CrashReporter(61:65)]: Terminating CrashReporter(61) due to signal 6
+266.795 [#0 DHCPClient(23:23)]: MM: Unable to commit 1024 pages, have only 14
+266.795 [#0 DHCPClient(23:23)]: RequestServer(64) resident:978, shared:978, virtual:2012
+266.795 [#0 DHCPClient(23:23)]: WebSocket(63) resident:921, shared:921, virtual:1853
+266.795 [#0 DHCPClient(23:23)]: WebContent(62) resident:7345, shared:7345, virtual:19210
+266.795 [#0 DHCPClient(23:23)]: CrashReporter(61) resident:121050, shared:121050, virtual:155439
+266.795 [#0 DHCPClient(23:23)]: FileSystemAccessServer(60) resident:1654, shared:1654, virtual:4182
+266.795 [#0 DHCPClient(23:23)]: RequestServer(59) resident:978, shared:978, virtual:2012
+266.795 [#0 DHCPClient(23:23)]: WebSocket(58) resident:921, shared:921, virtual:1853
+266.795 [#0 DHCPClient(23:23)]: WebContent(57) resident:8870, shared:8870, virtual:20722
+266.795 [#0 DHCPClient(23:23)]: SQLServer(56) resident:821, shared:821, virtual:2314
+266.795 [#0 DHCPClient(23:23)]: RequestServer(55) resident:978, shared:978, virtual:2012
+266.795 [#0 DHCPClient(23:23)]: Browser(54) resident:7037, shared:7037, virtual:18845
+266.795 [#0 DHCPClient(23:23)]: FileSystemAccessServer(50) resident:1653, shared:1653, virtual:4182
+266.795 [#0 DHCPClient(23:23)]: TextEditor(49) resident:6501, shared:6501, virtual:18968
+266.795 [#0 DHCPClient(23:23)]: Shell(42) resident:980, shared:980, virtual:2534
+266.795 [#0 DHCPClient(23:23)]: LaunchServer(41) resident:1741, shared:1741, virtual:4267
+266.795 [#0 DHCPClient(23:23)]: ClipboardHistory.Applet(38) resident:1938, shared:1938, virtual:6749
+266.795 [#0 DHCPClient(23:23)]: Terminal(37) resident:2523, shared:2523, virtual:7305
+266.795 [#0 DHCPClient(23:23)]: Clipboard(36) resident:503, shared:503, virtual:1330
+266.795 [#0 DHCPClient(23:23)]: Taskbar(35) resident:2459, shared:2459, virtual:7272
+266.795 [#0 DHCPClient(23:23)]: CrashDaemon(34) resident:729, shared:729, virtual:2233
+266.795 [#0 DHCPClient(23:23)]: Audio.Applet(33) resident:1705, shared:1705, virtual:4370
+266.795 [#0 DHCPClient(23:23)]: ResourceGraph.Applet(32) resident:1894, shared:1894, virtual:6688
+266.795 [#0 DHCPClient(23:23)]: FileManager (Desktop)(31) resident:3918, shared:3918, virtual:8762
+266.795 [#0 DHCPClient(23:23)]: Keymap.Applet(30) resident:1886, shared:1886, virtual:6691
+266.795 [#0 DHCPClient(23:23)]: ConfigServer(29) resident:589, shared:589, virtual:1469
+266.795 [#0 DHCPClient(23:23)]: WorkspacePicker.Applet(28) resident:1880, shared:1880, virtual:6684
+266.795 [#0 DHCPClient(23:23)]: SpiceAgent(26) resident:1684, shared:1684, virtual:4198
+266.795 [#0 DHCPClient(23:23)]: Network.Applet(25) resident:1891, shared:1891, virtual:6703
+266.795 [#0 DHCPClient(23:23)]: SystemServer(24) resident:513, shared:513, virtual:1370
+266.795 [#0 DHCPClient(23:23)]: DHCPClient(23) resident:470, shared:470, virtual:1321
+266.795 [#0 DHCPClient(23:23)]: Clipboard(14) resident:488, shared:488, virtual:1330
+266.795 [#0 DHCPClient(23:23)]: LookupServer(13) resident:526, shared:526, virtual:1387
+266.795 [#0 DHCPClient(23:23)]: LoginServer(12) resident:2069, shared:2069, virtual:6856
+266.795 [#0 DHCPClient(23:23)]: WindowServer(11) resident:8427, shared:7659, virtual:12572
+266.795 [#0 DHCPClient(23:23)]: Network Task(9) resident:0, shared:0, virtual:0
+266.795 [#0 DHCPClient(23:23)]: SystemServer(8) resident:506, shared:506, virtual:1370
+266.795 [#0 DHCPClient(23:23)]: UHCI Hot Plug Task(7) resident:0, shared:0, virtual:0
+266.795 [#0 DHCPClient(23:23)]: UHCI Async Poll Task(6) resident:0, shared:0, virtual:0
+266.795 [#0 DHCPClient(23:23)]: Finalizer Task(5) resident:0, shared:0, virtual:0
+266.795 [#0 DHCPClient(23:23)]: VFS Sync Task(4) resident:0, shared:0, virtual:0
+266.795 [#0 DHCPClient(23:23)]: ATA WorkQueue Task(3) resident:0, shared:0, virtual:0
+266.795 [#0 DHCPClient(23:23)]: IO WorkQueue Task(2) resident:0, shared:0, virtual:0
+266.904 [#0 Finalizer Task(5:5)]: Backtrace:
+0x00000000deadc0de  Kernel::Processor::switch_context(Kernel::Thread*&, Kernel::Thread*&) + 0x3d3
+0x00000000deadc0de  Kernel::Scheduler::context_switch(Kernel::Thread*) [clone .localalias] + 0x1f2
+0x00000000deadc0de  Kernel::Scheduler::pick_next() [clone .localalias] + 0x178
+0x00000000deadc0de  Kernel::Processor::clear_critical() + 0x114
+0x00000000deadc0de  Kernel::Thread::die_if_needed() [clone .localalias] + 0x322
+0x00000000deadc0de  syscall_handler + 0x1358
+0x00000000deadc0de  syscall_entry + 0x51
+0x00000017ddb4bde0  /usr/lib/libc.so: .text + 0x3ade0
+0x00000017ddb4c03e  /usr/lib/libc.so: .text + 0x3b03e
+0x0000000999ab7718  /usr/lib/libcore.so.serenity: .text + 0x1d718
+0x0000000999ab7fd7  /usr/lib/libcore.so.serenity: .text + 0x1dfd7
+0x0000000999ab499e  /usr/lib/libcore.so.serenity: .text + 0x1a99e
+0x00000009d2446743  /bin/CrashReporter: .text + 0x6743
+0x00000009d2440a4b  /bin/CrashReporter: .text + 0xa4b
+0x00000009d2440be9  /bin/CrashReporter: .text + 0xbe9
+266.914 [#0 Finalizer Task(5:5)]: Backtrace:
+0x00000000deadc0de  Kernel::Processor::switch_context(Kernel::Thread*&, Kernel::Thread*&) + 0x3d3
+0x00000000deadc0de  Kernel::Scheduler::context_switch(Kernel::Thread*) [clone .localalias] + 0x1f2
+0x00000000deadc0de  Kernel::Scheduler::pick_next() [clone .localalias] + 0x178
+0x00000000deadc0de  Kernel::Processor::clear_critical() + 0x114
+0x00000000deadc0de  Kernel::Thread::die_if_needed() [clone .localalias] + 0x322
+0x00000000deadc0de  syscall_handler + 0x1358
+0x00000000deadc0de  syscall_entry + 0x51
+0x00000017ddb134ae  /usr/lib/libc.so: .text + 0x24ae
+0x00000017ddb19996  /usr/lib/libc.so: .text + 0x8996
+0x000000034a51ca28  /usr/lib/libdebug.so.serenity: .text + 0x16a28
+0x000000034a51cd78  /usr/lib/libdebug.so.serenity: .text + 0x16d78
+0x000000034a5195cc  /usr/lib/libdebug.so.serenity: .text + 0x135cc
+0x000000034a519184  /usr/lib/libdebug.so.serenity: .text + 0x13184
+0x000000034a51c0cb  /usr/lib/libdebug.so.serenity: .text + 0x160cb
+0x000000034a51cd78  /usr/lib/libdebug.so.serenity: .text + 0x16d78
+0x000000034a5195cc  /usr/lib/libdebug.so.serenity: .text + 0x135cc
+0x000000034a519184  /usr/lib/libdebug.so.serenity: .text + 0x13184
+0x000000034a51c0cb  /usr/lib/libdebug.so.serenity: .text + 0x160cb
+0x000000034a51cd78  /usr/lib/libdebug.so.serenity: .text + 0x16d78
+0x000000034a5195cc  /usr/lib/libdebug.so.serenity: .text + 0x135cc
+0x000000034a519184  /usr/lib/libdebug.so.serenity: .text + 0x13184
+0x000000034a51c0cb  /usr/lib/libdebug.so.serenity: .text + 0x160cb
+0x000000034a51cd78  /usr/lib/libdebug.so.serenity: .text + 0x16d78
+0x000000034a5195cc  /usr/lib/libdebug.so.serenity: .text + 0x135cc
+0x000000034a519184  /usr/lib/libdebug.so.serenity: .text + 0x13184
+0x000000034a51c0cb  /usr/lib/libdebug.so.serenity: .text + 0x160cb
+0x000000034a51cd78  /usr/lib/libdebug.so.serenity: .text + 0x16d78
+0x000000034a51997d  /usr/lib/libdebug.so.serenity: .text + 0x1397d
+0x000000034a519caa  /usr/lib/libdebug.so.serenity: .text + 0x13caa
+0x000000034a509dfd  /usr/lib/libdebug.so.serenity: .text + 0x3dfd
+0x0000000f09e7c918  /usr/lib/libcoredump.so.serenity: .text + 0x1918
+0x0000000f09e7d1b4  /usr/lib/libcoredump.so.serenity: .text + 0x21b4
+0x00000009d2447136  /bin/CrashReporter: .text + 0x7136
+0x00000009d244c5f4  /bin/CrashReporter: .text + 0xc5f4
+0x0000000ed70beb81  /usr/lib/libthreading.so.serenity: .text + 0xb81
+0x0000000ed70bf532  /usr/lib/libthreading.so.serenity: .text + 0x1532
+0x00000017ddb2947c  /usr/lib/libc.so: .text + 0x1847c
+266.938 [#0 Finalizer Task(5:5)]: Generating coredump for pid: 61
+266.941 [#0 Finalizer Task(5:5)]: MM: Unable to commit 1024 pages, have only 14
+266.941 [#0 Finalizer Task(5:5)]: RequestServer(64) resident:978, shared:978, virtual:2012
+266.941 [#0 Finalizer Task(5:5)]: WebSocket(63) resident:921, shared:921, virtual:1853
+266.941 [#0 Finalizer Task(5:5)]: WebContent(62) resident:7345, shared:7345, virtual:19210
+266.941 [#0 Finalizer Task(5:5)]: CrashReporter(61) resident:121050, shared:121050, virtual:155439
+266.941 [#0 Finalizer Task(5:5)]: FileSystemAccessServer(60) resident:1654, shared:1654, virtual:4182
+266.941 [#0 Finalizer Task(5:5)]: RequestServer(59) resident:978, shared:978, virtual:2012
+266.941 [#0 Finalizer Task(5:5)]: WebSocket(58) resident:921, shared:921, virtual:1853
+266.941 [#0 Finalizer Task(5:5)]: WebContent(57) resident:8870, shared:8870, virtual:20722
+266.941 [#0 Finalizer Task(5:5)]: SQLServer(56) resident:821, shared:821, virtual:2314
+266.941 [#0 Finalizer Task(5:5)]: RequestServer(55) resident:978, shared:978, virtual:2012
+266.941 [#0 Finalizer Task(5:5)]: Browser(54) resident:7037, shared:7037, virtual:18845
+266.941 [#0 Finalizer Task(5:5)]: FileSystemAccessServer(50) resident:1653, shared:1653, virtual:4182
+266.941 [#0 Finalizer Task(5:5)]: TextEditor(49) resident:6501, shared:6501, virtual:18968
+266.941 [#0 Finalizer Task(5:5)]: Shell(42) resident:980, shared:980, virtual:2534
+266.941 [#0 Finalizer Task(5:5)]: LaunchServer(41) resident:1741, shared:1741, virtual:4267
+266.941 [#0 Finalizer Task(5:5)]: ClipboardHistory.Applet(38) resident:1938, shared:1938, virtual:6749
+266.941 [#0 Finalizer Task(5:5)]: Terminal(37) resident:2523, shared:2523, virtual:7305
+266.941 [#0 Finalizer Task(5:5)]: Clipboard(36) resident:503, shared:503, virtual:1330
+266.941 [#0 Finalizer Task(5:5)]: Taskbar(35) resident:2459, shared:2459, virtual:7272
+266.941 [#0 Finalizer Task(5:5)]: CrashDaemon(34) resident:729, shared:729, virtual:2233
+266.941 [#0 Finalizer Task(5:5)]: Audio.Applet(33) resident:1705, shared:1705, virtual:4370
+266.941 [#0 Finalizer Task(5:5)]: ResourceGraph.Applet(32) resident:1894, shared:1894, virtual:6688
+266.941 [#0 Finalizer Task(5:5)]: FileManager (Desktop)(31) resident:3918, shared:3918, virtual:8762
+266.941 [#0 Finalizer Task(5:5)]: Keymap.Applet(30) resident:1886, shared:1886, virtual:6691
+266.941 [#0 Finalizer Task(5:5)]: ConfigServer(29) resident:589, shared:589, virtual:1469
+266.941 [#0 Finalizer Task(5:5)]: WorkspacePicker.Applet(28) resident:1880, shared:1880, virtual:6684
+266.941 [#0 Finalizer Task(5:5)]: SpiceAgent(26) resident:1684, shared:1684, virtual:4198
+266.941 [#0 Finalizer Task(5:5)]: Network.Applet(25) resident:1891, shared:1891, virtual:6703
+266.941 [#0 Finalizer Task(5:5)]: SystemServer(24) resident:513, shared:513, virtual:1370
+266.941 [#0 Finalizer Task(5:5)]: DHCPClient(23) resident:470, shared:470, virtual:1321
+266.941 [#0 Finalizer Task(5:5)]: Clipboard(14) resident:488, shared:488, virtual:1330
+266.941 [#0 Finalizer Task(5:5)]: LookupServer(13) resident:526, shared:526, virtual:1387
+266.941 [#0 Finalizer Task(5:5)]: LoginServer(12) resident:2069, shared:2069, virtual:6856
+266.941 [#0 Finalizer Task(5:5)]: WindowServer(11) resident:8427, shared:7659, virtual:12572
+266.941 [#0 Finalizer Task(5:5)]: Network Task(9) resident:0, shared:0, virtual:0
+266.941 [#0 Finalizer Task(5:5)]: SystemServer(8) resident:506, shared:506, virtual:1370
+266.941 [#0 Finalizer Task(5:5)]: UHCI Hot Plug Task(7) resident:0, shared:0, virtual:0
+266.941 [#0 Finalizer Task(5:5)]: UHCI Async Poll Task(6) resident:0, shared:0, virtual:0
+266.941 [#0 Finalizer Task(5:5)]: Finalizer Task(5) resident:0, shared:0, virtual:0
+266.941 [#0 Finalizer Task(5:5)]: VFS Sync Task(4) resident:0, shared:0, virtual:0
+266.941 [#0 Finalizer Task(5:5)]: ATA WorkQueue Task(3) resident:0, shared:0, virtual:0
+266.941 [#0 Finalizer Task(5:5)]: IO WorkQueue Task(2) resident:0, shared:0, virtual:0
+267.084 CrashDaemon(34:34): New coredump file: /tmp/coredump/CrashReporter_61_1684910635
+267.085 [Finalizer Task(5:5)]: Failed to write coredump for pid 61: Error(errno=12)
+293.090 WebContent(62:62): ASSERTION FAILED: maybe_float.parsed_value()
+./Userland/Libraries/LibWeb/SVG/AttributeParser.cpp:407
+293.090 [#0 WebContent(62:62)]: Terminating WebContent(62) due to signal 6
+293.090 [#0 Finalizer Task(5:5)]: Backtrace:
+0x00000000deadc0de  Kernel::Processor::switch_context(Kernel::Thread*&, Kernel::Thread*&) + 0x3d3
+0x00000000deadc0de  Kernel::Scheduler::context_switch(Kernel::Thread*) [clone .localalias] + 0x1f2
+0x00000000deadc0de  Kernel::Scheduler::pick_next() [clone .localalias] + 0x178
+0x00000000deadc0de  Kernel::Processor::clear_critical() + 0x114
+0x00000000deadc0de  Kernel::Thread::die_if_needed() [clone .localalias] + 0x322
+0x00000000deadc0de  syscall_handler + 0x1358
+0x00000000deadc0de  syscall_entry + 0x51
+0x00000009788534ae  /usr/lib/libc.so: .text + 0x24ae
+0x0000000978859996  /usr/lib/libc.so: .text + 0x8996
+0x00000008cdc8737c  /usr/lib/libweb.so.serenity: .text + 0x4bc37c
+0x00000008cdc873b4  /usr/lib/libweb.so.serenity: .text + 0x4bc3b4
+0x00000008cdc8954b  /usr/lib/libweb.so.serenity: .text + 0x4be54b
+0x00000008cdc89b70  /usr/lib/libweb.so.serenity: .text + 0x4beb70
+0x00000008cdc8a348  /usr/lib/libweb.so.serenity: .text + 0x4bf348
+0x00000008cdc8b088  /usr/lib/libweb.so.serenity: .text + 0x4c0088
+0x00000008cdc944cd  /usr/lib/libweb.so.serenity: .text + 0x4c94cd
+0x00000008cd950c02  /usr/lib/libweb.so.serenity: .text + 0x185c02
+0x00000008cdb36018  /usr/lib/libweb.so.serenity: .text + 0x36b018
+0x00000008cdb2492b  /usr/lib/libweb.so.serenity: .text + 0x35992b
+0x00000008cdb259c0  /usr/lib/libweb.so.serenity: .text + 0x35a9c0
+0x00000008cdb27371  /usr/lib/libweb.so.serenity: .text + 0x35c371
+0x00000008cdb33d1b  /usr/lib/libweb.so.serenity: .text + 0x368d1b
+0x00000008cdb34391  /usr/lib/libweb.so.serenity: .text + 0x369391
+0x00000008cdc11868  /usr/lib/libweb.so.serenity: .text + 0x446868
+0x0000000ea3d763cc  /bin/WebContent: .text + 0x493cc
+0x0000000309572d40  /usr/lib/libipc.so.serenity: .text + 0x1d40
+0x0000000fc113f069  /usr/lib/libcore.so.serenity: .text + 0x41069
+0x0000000fc111bfe4  /usr/lib/libcore.so.serenity: .text + 0x1dfe4
+0x0000000fc111899e  /usr/lib/libcore.so.serenity: .text + 0x1a99e
+0x0000000ea3dd4e51  /bin/WebContent: .text + 0xa7e51
+0x0000000ea3d2e71b  /bin/WebContent: .text + 0x171b
+0x0000000ea3d2e8b9  /bin/WebContent: .text + 0x18b9
+293.123 [#0 Finalizer Task(5:5)]: Generating coredump for pid: 62
+293.264 TextEditor(49:49): WebContent process crashed!
+293.267 [SystemServer(24:24)]: Ext2FSInode[1:10731]::read_bytes(): Failed to read block 33290 (index 0)
+293.267 [#0 SystemServer(24:24)]: Unrecoverable page fault, read from address V0x0000000000000000
+293.267 [#0 SystemServer(24:24)]: Note: Address V0x0000000000000000 looks like a possible nullptr dereference
+293.271 [SystemServer(24:24)]: CRASH: CPU #0 Page Fault in userspace
+293.271 [#0 SystemServer(24:24)]: Exception code: 0004 (isr: 0000)
+293.271 [#0 SystemServer(24:24)]:     pc=0x0023:0x00000018c2653102 rflags=0x0000000000010246
+293.271 [#0 SystemServer(24:24)]:  stack=0x0000001da89b2c98
+293.275 [#0 SystemServer(24:24)]:    rax=0x0000000000000000 rbx=0x00000018c2735560 rcx=0x00000018c27342e8 rdx=0x0000000000000001
+293.275 [#0 SystemServer(24:24)]:    rbp=0x0000001da89b2d60 rsp=0x0000002000ad8f30 rsi=0x0000000000000015 rdi=0x0000000000000000
+293.275 [#0 SystemServer(24:24)]:     r8=0x0000000afbf21020  r9=0x0000000000000010 r10=0x0000000000000007 r11=0x0000000000000246
+293.275 [#0 SystemServer(24:24)]:    r12=0x0000000000000000 r13=0x0000000000000400 r14=0x00000018c2735960 r15=0x0000000000000000
+293.279 [#0 SystemServer(24:24)]:    cr0=0x0000000080010013 cr2=0x0000000000000000 cr3=0x0000000009ba0000 cr4=0x0000000000340ee0
+293.279 [#0 SystemServer(24:24)]: 0x00000018c2653102  (?)
+
+293.279 [#0 SystemServer(24:24)]: Kernel backtrace:
+293.283 [#0 SystemServer(24:24)]: Kernel + 0x0000000000ea06a5  Kernel::Process::crash(int, AK::Optional<Kernel::RegisterState const&>, bool) +0x2c5
+293.283 [#0 SystemServer(24:24)]: Kernel + 0x0000000000192bac  Kernel::handle_crash(Kernel::RegisterState const&, char const*, int, bool) +0x42c
+293.283 [#0 SystemServer(24:24)]: Kernel + 0x000000000000e2d6  Kernel::PageFault::handle(Kernel::RegisterState&) +0xe56
+293.286 [#0 SystemServer(24:24)]: Kernel + 0x00000000013f48a0  page_fault_handler +0x110
+293.286 [#0 SystemServer(24:24)]: Kernel + 0x00000000013f26b6  page_fault_asm_entry +0x36
+293.286 [#0 Finalizer Task(5:5)]: Generating coredump for pid: 24
+293.302 TextEditor(49:49): WebContent process crashed!
+293.306 TextEditor(49:49): ASSERTION FAILED: !is_error()
+././AK/Error.h:198
+293.306 [#0 TextEditor(49:49)]: Terminating TextEditor(49) due to signal 6
+293.306 [#0 Finalizer Task(5:5)]: Backtrace:
+0x00000000deadc0de  Kernel::Processor::switch_context(Kernel::Thread*&, Kernel::Thread*&) + 0x3d3
+0x00000000deadc0de  Kernel::Scheduler::context_switch(Kernel::Thread*) [clone .localalias] + 0x1f2
+0x00000000deadc0de  Kernel::Scheduler::pick_next() [clone .localalias] + 0x178
+0x00000000deadc0de  Kernel::Processor::clear_critical() + 0x114
+0x00000000deadc0de  Kernel::Thread::die_if_needed() [clone .localalias] + 0x322
+0x00000000deadc0de  syscall_handler + 0x1358
+0x00000000deadc0de  syscall_entry + 0x51
+0x0000000fd6cbf4ae  /usr/lib/libc.so: .text + 0x24ae
+0x0000000fd6cc5996  /usr/lib/libc.so: .text + 0x8996
+0x0000001d46d2f2ac  /usr/lib/libwebview.so.serenity: .text + 0xa2ac
+0x0000001d46d42cf7  /usr/lib/libwebview.so.serenity: .text + 0x1dcf7
+0x0000001cdba818f5  /usr/lib/libcore.so.serenity: .text + 0x298f5
+0x0000001cdba99069  /usr/lib/libcore.so.serenity: .text + 0x41069
+0x0000001cdba75fe4  /usr/lib/libcore.so.serenity: .text + 0x1dfe4
+0x0000001cdba7299e  /usr/lib/libcore.so.serenity: .text + 0x1a99e
+0x0000001e3ac63017  /bin/TextEditor: .text + 0x19017
+0x0000001e3ac4ad1b  /bin/TextEditor: .text + 0xd1b
+0x0000001e3ac4aeb9  /bin/TextEditor: .text + 0xeb9
+293.320 [#0 Finalizer Task(5:5)]: Generating coredump for pid: 49

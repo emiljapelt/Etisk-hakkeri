@@ -1,0 +1,303 @@
+hojelse@hojelse:~/serenity$ ./Meta/serenity.sh run
+[0/5] Performing build step for 'lagom'
+ninja: no work to do.
+[1/5] Performing install step for 'lagom'
+[0/1] Install the project...
+-- Install configuration: ""
+[2/5] Performing build step for 'serenity'
+[0/2] Re-checking globbed directories...
+[1/1] cd /home/hojelse/serenity/Build/x86_64/Userland/Libraries/LibC && /home/hojelse/serenity/Toolchain/Local/x86_64/bin/x86_64-pc-serenity-gcc-ar -x /home/hojelse/sereni...anitizerStatic.a && /home/hojelse/serenity/Toolchain/Local/x86_64/bin/x86_64-pc-serenity-gcc-ar -rcs /home/hojelse/serenity/Build/x86_64/Userland/Libraries/LibC/libc.a *.o
+[3/5] Performing install step for 'serenity'
+[0/2] Re-checking globbed directories...
+[1/2] Install the project...
+-- Install configuration: ""
+[5/5] Completed 'serenity'
+ninja: Entering directory `/home/hojelse/serenity/Build/x86_64'
+[0/2] Re-checking globbed directories...
+[1/2] Install the project...
+-- Install configuration: ""
+ninja: Entering directory `/home/hojelse/serenity/Build/x86_64'
+[0/2] Re-checking globbed directories...
+[0/1] cd /home/hojelse/serenity/Build/x86_64 && /home/hojelse/serenity/Toolchain/Local/cmake/bin/cmake -E env SERENITY_SOURCE_DIR=/home/hojelse/serenity SERENITY_ARCH=x86_64 SERENITY_TOOLCHAIN=GNU LLVM_VERSION=13.1.0 /home/hojelse/serenity/Meta/build-image-qemu.sh
+checking existing image
+e2fsck 1.46.5 (30-Dec-2021)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+_disk_image: 15475/107200 files (5.6% non-contiguous), 188387/316591 blocks
+done
+mounting filesystem... done
+installing base system... done
+creating initial filesystem structure... done
+creating utmp file... done
+setting up device nodes folder... done
+setting up sysfs folder... done
+installing users... done
+adding some desktop icons... done
+installing shortcuts... done
+installing 'checksum' variants... done
+unmounting filesystem... done
+ninja: Entering directory `/home/hojelse/serenity/Build/x86_64'
+[0/2] Re-checking globbed directories...
+[0/1] cd /home/hojelse/serenity/Build/x86_64 && /home/hojelse/serenity/Toolchain/Local/cmake/bin/cmake -E env SERENITY_ARCH=x86_64 /home/hojelse/serenity/Meta/run.sh
+qemu: module ui-ui-none not found, do you want to install qemu-system-gui package?
+qemu-system-x86_64: warning: nic e1000.0 has no peer
+[Kernel]: Loading kernel symbol table...
+[Kernel]: CPU[0]: Supported features: sse3 pclmulqdq vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline aes xsave osxsave avx f16c rdrand hypervisor fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss htt fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt umip md_clear spec_ctrl stibp ia32_arch_capabilities ssbd lahf_lm abm 3dnowprefetch syscall nx pdpe1gb rdtscp lm constant_tsc
+[Kernel]: CPU[0]: Physical address bit width: 39
+[Kernel]: CPU[0]: Virtual address bit width: 48
+[Kernel]: Initializing unhandled interrupt handlers
+[Kernel]: CPU[0]: CPUID hypervisor signature 'KVMKVMKVM', max leaf 0x40000001
+[Kernel]: Kernel Commandline: Kernel/Prekernel/Prekernel hello
+[Kernel]: Initialize MMU
+[Kernel]: MM: Multiboot mmap: address=0x0000000000000000, length=654336, type=1
+[Kernel]: MM: Got an unaligned physical_region from the bootloader; correcting length 654336 by 3072 bytes
+[Kernel]: MM: Multiboot mmap: address=0x000000000009fc00, length=1024, type=2
+[Kernel]: MM: Multiboot mmap: address=0x00000000000f0000, length=65536, type=2
+[Kernel]: MM: Multiboot mmap: address=0x0000000000100000, length=1072562176, type=1
+[Kernel]: MM: Multiboot mmap: address=0x000000003ffe0000, length=131072, type=2
+[Kernel]: MM: Multiboot mmap: address=0x00000000feffc000, length=16384, type=2
+[Kernel]: MM: Multiboot mmap: address=0x00000000fffc0000, length=262144, type=2
+[Kernel]: MM: Contiguous reserved range from P000000000009fc00, length is 394240
+[Kernel]: MM: Contiguous reserved range from P000000003ffe0000, length is 3221356544
+[Kernel]: MM: boot_pml4t @ P0000000000115000
+[Kernel]: MM: boot_pdpt @ P0000000000116000
+[Kernel]: MM: boot_pd0 @ P0000000000117000
+[Kernel]: MM: boot_pd_kernel @ P0000000000138000
+[Kernel]: MM: Physical page entries: 0x0000002000200000 - 0x0000002000a00fff (size 0x0000000000801000)
+[Kernel]: MM: Low memory range @ P0000000000000000 - P00000000000fffff (size 0x100000)
+[Kernel]: MM: Kernel range @ P0000000000200000 - P0000000002f37fff (size 0x2d38000)
+[Kernel]: MM: Physical Pages range @ P0000000002f39000 - P000000000373efff (size 0x806000)
+[Kernel]: MM: User physical region: P0000000000101000 - P00000000001fefff (size 0xfe000)
+[Kernel]: MM: User physical region: P000000000373f000 - P000000003ffdffff (size 0x3c8a1000)
+[Kernel]:  * 60x PhysicalZone (16 MiB) @ 000000000373f000-000000003e73efff
+[Kernel]:  * 8x PhysicalZone (1 MiB) @ 000000003f73f000-000000003fe3efff
+[Kernel]: VGA Text mode console initialized!
+[Kernel]: Starting SerenityOS...
+[Kernel]: Early access to ACPI tables for interrupt setup
+[Kernel]: Can't enable SMP mode without IOAPIC mode being enabled
+[Kernel]: Interrupts: Switch to IOAPIC mode
+[Kernel]: Interrupts: MADT @ P 0x000000003ffe37ef
+[Kernel]: PIC: Cascading mode, vectors 0x50-0x5f
+[Kernel]: IOAPIC found @ MADT entry 2, MMIO Registers @ P00000000fec00000
+[Kernel]: IOAPIC ID: 0x0
+[Kernel]: IOAPIC Version: 0x11, redirection entries: 24
+[Kernel]: IOAPIC Arbitration ID 0x0
+[Kernel]: Interrupts: Overriding INT 0x0 with GSI 2, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0x5 with GSI 5, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0x9 with GSI 9, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0xa with GSI 10, for bus 0x0
+[Kernel]: Interrupts: Overriding INT 0xb with GSI 11, for bus 0x0
+[Kernel]: Interrupts: Detected Dual i8259 - Disabled
+[Kernel]: Interrupts: Detected IOAPIC
+[Kernel]: MultiProcessor: Floating Pointer Structure @ P00000000000f5b70
+[Kernel]: Features 0, IMCR? 0
+[Kernel]: MultiProcessor: Get PCI IOAPIC redirections
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 7, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 4, IOAPIC 0, IOAPIC INTIN 9
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 12, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 16, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 20, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 24, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, trigger mode 0, INT 32, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 1, trigger mode 0, INT 3, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 1, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 9
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 3, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 4, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 5, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 6, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 10
+[Kernel]: Interrupts: Bus 0, polarity 1, PCI device 8, trigger mode 0, INT 0, IOAPIC 0, IOAPIC INTIN 11
+[Kernel]: ACPI: Using RSDP @ P00000000000f59b0
+[Kernel]: ACPI: Main Description Table valid? true
+[Kernel]: ACPI: Using RSDT, enumerating tables @ P000000003ffe38cf
+[Kernel]: ACPI: RSDT revision 1, total length: 52
+[Kernel]: ACPI: Initializing Fixed ACPI data
+[Kernel]: ACPI: Fixed ACPI data, Revision 1, length: 116 bytes
+[Kernel]: ACPI: Using DSDT @ P000000003ffe0040 with 14139 bytes
+[Kernel]: RTC:  Year: 2023, month: 5, day: 24, hour: 6, minute: 52, second: 22
+[Kernel]: HPET @ P000000003ffe386f
+[Kernel]: HPET: Minimum clock tick - 0
+[Kernel]: HPET: Timers count - 3
+[Kernel]: HPET: Main counter size: 64-bit
+[Kernel]: HPET: Timer[0] comparator size: 64-bit, mode: 64-bit
+[Kernel]: HPET: Timer[1] comparator size: 64-bit, mode: 64-bit
+[Kernel]: HPET: Timer[2] comparator size: 64-bit, mode: 64-bit
+[Kernel]: HPET: frequency 100000000 Hz (100 MHz) resolution: 10 ns
+[Kernel]: HPET: Setting appropriate functions to timers.
+[Kernel]: Time: Scanning for periodic timers
+[Kernel]: Time: Scanning for non-periodic timers
+0.000 [Kernel]: APICTimer: Using HPET as calibration source
+0.000 [Kernel]: KernelRng: Using RDSEED as entropy source
+0.000 [Kernel]: APICTimer: Ticks per second: 255 (3.917420ms)
+0.000 [Kernel]: APICTimer: Bus clock speed: 979.366720 MHz
+0.000 [Kernel]: APICTimer: CPU clock speed: 2750.202390 MHz
+0.000 [Kernel]: Time: Using APIC timer as system timer
+0.000 [#0 colonel(0:0)]: Scheduler[0]: idle loop running
+0.112 [init_stage2(1:1)]: Testing PCI via manual probing...
+0.112 [init_stage2(1:1)]: PCI IO supported
+0.120 [init_stage2(1:1)]: PCI [0000:00:00:00] PCI::HardwareID [8086:1237]
+0.120 [init_stage2(1:1)]: PCI [0000:00:01:00] PCI::HardwareID [8086:7000]
+0.120 [init_stage2(1:1)]: PCI [0000:00:01:01] PCI::HardwareID [8086:7010]
+0.120 [init_stage2(1:1)]: PCI [0000:00:01:02] PCI::HardwareID [8086:7020]
+0.125 [init_stage2(1:1)]: PCI [0000:00:01:03] PCI::HardwareID [8086:7113]
+0.125 [init_stage2(1:1)]: PCI [0000:00:02:00] PCI::HardwareID [1234:1111]
+0.125 [init_stage2(1:1)]: PCI [0000:00:03:00] PCI::HardwareID [1af4:1003]
+0.125 [init_stage2(1:1)]: PCI [0000:00:04:00] PCI::HardwareID [1af4:1005]
+0.129 [init_stage2(1:1)]: PCI [0000:00:05:00] PCI::HardwareID [8086:293e]
+0.129 [init_stage2(1:1)]: PCI [0000:00:06:00] PCI::HardwareID [1b36:0001]
+0.129 [init_stage2(1:1)]: PCI [0000:01:00:00] PCI::HardwareID [8086:100e]
+0.132 [init_stage2(1:1)]: PCI [0000:01:01:00] PCI::HardwareID [8086:244e]
+0.132 [init_stage2(1:1)]: PCI [0000:02:00:00] PCI::HardwareID [1b36:0007]
+0.132 [init_stage2(1:1)]: PCI [0000:00:07:00] PCI::HardwareID [8086:244e]
+0.132 [init_stage2(1:1)]: PCI [0000:03:00:00] PCI::HardwareID [1b36:0007]
+0.136 [init_stage2(1:1)]: PCI [0000:03:01:00] PCI::HardwareID [8086:2922]
+0.136 [init_stage2(1:1)]: PCI [0000:00:08:00] PCI::HardwareID [8086:100e]
+0.140 [init_stage2(1:1)]: VMWareBackdoor: Enabling absolute mouse mode
+0.140 [#0 init_stage2(1:1)]: I8042: Dual channel controller
+0.140 [init_stage2(1:1)]: PS2MouseDevice: Mouse wheel enabled!
+0.144 [init_stage2(1:1)]: PS2MouseDevice: 5 buttons enabled!
+0.183 [#0 init_stage2(1:1)]: Framebuffer Console: taking 3145728 bytes
+0.183 [#0 init_stage2(1:1)]: Framebuffer Console: taking 3145728 bytes
+0.309 [#0 init_stage2(1:1)]: VC 0: Resized to 113 x 48
+0.309 [#0 init_stage2(1:1)]: VC 1: Resized to 113 x 48
+0.316 [#0 init_stage2(1:1)]: VC 2: Resized to 113 x 48
+0.320 [#0 init_stage2(1:1)]: VC 3: Resized to 113 x 48
+0.320 [#0 init_stage2(1:1)]: VC 4: Resized to 113 x 48
+0.324 [#0 init_stage2(1:1)]: VC 5: Resized to 113 x 48
+0.336 [init_stage2(1:1)]: UHCI: PCI [0000:00:01:02]: Controller found PCI::HardwareID [8086:7020] @ PCI [0000:00:01:02]
+0.340 [init_stage2(1:1)]: UHCI: PCI [0000:00:01:02]: I/O base 0x000000200389f080
+0.340 [init_stage2(1:1)]: UHCI: PCI [0000:00:01:02]: Interrupt line: 11
+0.343 [#0 init_stage2(1:1)]: UHCI: Allocated framelist at physical address P00000000080bc000
+0.343 [#0 init_stage2(1:1)]: UHCI: Framelist is at virtual address V0x0000002001029000
+0.343 [#0 init_stage2(1:1)]: UHCI: QH(0x200102afc0) @ 0x80bbfc0: link_ptr=0x80bbfa2, element_link_ptr=0x0001
+0.348 [#0 init_stage2(1:1)]: UHCI: QH(0x200102afa0) @ 0x80bbfa0: link_ptr=0x80bbf82, element_link_ptr=0x0001
+0.348 [#0 init_stage2(1:1)]: UHCI: QH(0x200102af80) @ 0x80bbf80: link_ptr=0x80bbf62, element_link_ptr=0x0001
+0.348 [#0 init_stage2(1:1)]: UHCI: QH(0x200102af60) @ 0x80bbf60: link_ptr=0x80bbf82, element_link_ptr=0x80bafe0
+0.352 [#0 init_stage2(1:1)]: UHCI: Reset completed
+0.352 [#0 init_stage2(1:1)]: UHCI: Started
+0.352 [#0 VFS Sync Task(4:4)]: VFS SyncTask is running
+0.352 [#0 init_stage2(1:1)]: BIOSSysFSDirectory: SMBIOS 32bit Entry point @ P00000000000f59d0
+0.352 [#0 init_stage2(1:1)]: BIOSSysFSDirectory: Data table @ P00000000000f59f0
+0.356 [#0 init_stage2(1:1)]: VirtIOConsole: Found @ PCI [0000:00:03:00]
+0.371 [#0 init_stage2(1:1)]: VirtIO::Console: cols: 0, rows: 0, max nr ports 2
+0.371 [#0 init_stage2(1:1)]: VirtIORNG: Found @ PCI [0000:00:04:00]
+0.398 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: Found @ PCI [0000:01:00:00]
+0.398 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: IO base: 0x000000200389ccc0
+0.398 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: Interrupt line: 10
+0.402 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: Has EEPROM? true
+0.402 [init_stage2(1:1)]: E1000: PCI [0000:01:00:00]: MAC address: {52:54:00:12:34:56}
+0.406 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: Found @ PCI [0000:00:08:00]
+0.406 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: IO base: 0x000000200389cc00
+0.410 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: Interrupt line: 11
+0.410 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: Has EEPROM? true
+0.410 [init_stage2(1:1)]: E1000: PCI [0000:00:08:00]: MAC address: {52:54:00:12:34:57}
+0.414 [init_stage2(1:1)]: IntelHDA: PCI [0000:00:05:00]: Intel High Definition Audio specification v1.0
+0.418 [init_stage2(1:1)]: IntelHDA: PCI [0000:00:05:00]: Found codec on address #0
+0.720 [init_stage2(1:1)]: IntelHDA: PCI [0000:00:05:00]: Failed to set up an output audio channel: Error(errno=69)
+0.720 [init_stage2(1:1)]: Failed to initialize audio device (PCI [0000:00:05:00] PCI::HardwareID [8086:293e]): Error(errno=69)
+0.720 [#0 init_stage2(1:1)]: AudioManagement: no audio controller was initialized.
+0.720 [#0 init_stage2(1:1)]: IDE controller @ PCI [0000:00:01:01]: interrupt line was set to 0
+0.724 [#0 init_stage2(1:1)]: IDE controller @ PCI [0000:00:01:01]: ISA Compatibility mode-only controller, supports bus mastering
+0.724 [#0 init_stage2(1:1)]: IDE controller @ PCI [0000:00:01:01]: bus master base was set to IO e0c0
+0.727 [#0 init_stage2(1:1)]: ATAPort: device found: Name=QEMU HARDDISK, Capacity=1296757248, Capabilities=0x0b00
+1.437 [#0 init_stage2(1:1)]: Allocated SDHC DMA buffer at P000000000805f000
+1.437 [#0 init_stage2(1:1)]: Setting SDHostController to operate using ADMA2 with 32 bit addressing
+1.437 [#0 init_stage2(1:1)]: Allocated SDHC DMA buffer at P000000000803f000
+1.437 [#0 init_stage2(1:1)]: Setting SDHostController to operate using ADMA2 with 32 bit addressing
+1.441 [init_stage2(1:1)]: AHCI: PCI [0000:03:01:00]: PCI [0000:03:01:00]: AHCI controller reset
+1.441 [init_stage2(1:1)]: AHCI Port 1: Device not detected, Phy not enabled
+1.489 [init_stage2(1:1)]: AHCI Port 2: Device not detected, Phy not enabled
+1.536 [init_stage2(1:1)]: AHCI Port 3: Device not detected, Phy not enabled
+1.583 [init_stage2(1:1)]: AHCI Port 4: Device not detected, Phy not enabled
+1.630 [init_stage2(1:1)]: AHCI Port 5: Device not detected, Phy not enabled
+1.681 [init_stage2(1:1)]: AHCI Port 6: Device not detected, Phy not enabled
+1.728 [#0 init_stage2(1:1)]: PCI [0000:03:01:00]: AHCI command list entries count - 32
+1.728 [#0 init_stage2(1:1)]: Master Boot Record: invalid signature
+1.730 [#0 init_stage2(1:1)]: Master Boot Record: invalid signature
+1.736 [init_stage2(1:1)]: VirtualFileSystem: mounted root(1) from Ext2FS (device:3,0)
+1.738 [init_stage2(1:1)]: Write-protected kernel symbols after init.
+1.738 [init_stage2(1:1)]: Unmapped 1908 KiB of kernel text after init! :^)
+1.758 [Network Task(9:9)]: NetworkTask: E1000NetworkAdapter network adapter found: hw={52:54:00:12:34:56}
+1.758 [Network Task(9:9)]: NetworkTask: E1000NetworkAdapter network adapter found: hw={52:54:00:12:34:57}
+1.758 [Network Task(9:9)]: NetworkTask: LoopbackAdapter network adapter found: hw={13:55:02:09:55:aa}
+1.934 SystemServer(8:8): Spawning mount -a to mount all filesystems.
+1.957 mount(10:10): Mounting all filesystems...
+1.965 mount(10:10): Skipping mounting root
+1.965 mount(10:10): Mounting /bin (bind) on /bin
+1.969 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:75041 at inode 1:75041
+1.969 mount(10:10): Mounting /etc (bind) on /etc
+1.969 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:10721 at inode 1:10721
+1.969 mount(10:10): Mounting /home (bind) on /home
+1.969 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:21441 at inode 1:21441
+1.974 mount(10:10): Mounting /root (bind) on /root
+1.974 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:42881 at inode 1:42881
+1.974 mount(10:10): Mounting /var (bind) on /var
+1.974 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:42884 at inode 1:42884
+1.977 mount(10:10): Mounting /www (bind) on /www
+1.977 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:64321 at inode 1:64321
+1.977 mount(10:10): Mounting /usr/Tests (bind) on /usr/Tests
+1.977 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:53968 at inode 1:53968
+1.981 mount(10:10): Mounting /usr/local (bind) on /usr/local
+1.981 [#0 mount(10:10)]: VirtualFileSystem: Bind-mounting inode 1:86682 at inode 1:86682
+1.997 [#0 SystemServer(8:8)]: VirtualFileSystem: Remounting inode 1:2
+1.997 [#0 SystemServer(8:8)]: mount proc @ /proc
+1.997 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 2, Mounting ProcFS at inode 1:96481 with flags 4
+1.997 [#0 SystemServer(8:8)]: mount sys @ /sys
+2.001 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 3, Mounting SysFS at inode 1:96484 with flags 0
+2.001 [#0 SystemServer(8:8)]: mount ram @ /dev
+2.001 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 4, Mounting RAMFS at inode 1:96483 with flags 262
+2.001 [#0 SystemServer(8:8)]: mount ram @ /tmp
+2.001 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 5, Mounting RAMFS at inode 1:96482 with flags 5
+2.020 [#0 SystemServer(8:8)]: mount devpts @ /dev/pts
+2.020 [#0 SystemServer(8:8)]: VirtualFileSystem: FileSystemID 6, Mounting DevPtsFS at inode 4:33 with flags 0
+2.036 SystemServer(8:8): Creating /tmp/coredump directory
+2.040 SystemServer(8:8): Setting /tmp/coredump as the coredump directory
+2.040 SystemServer(8:8): Creating /tmp/semaphore directory
+2.040 SystemServer(8:8): Read system_mode: graphical
+2.063 SystemServer(8:8): Activating 6 services...
+2.181 SystemServer(8:8): Service KeyboardPreferenceLoader has exited with exit code 0
+2.255 LookupServer(13:13): Using network config file at /etc/LookupServer.ini
+2.286 [#0 keymap(17:17)]: New Character map 'en-us' passed in by client.
+2.326 NetworkServer(16:16): Interfaces to configure: [ ep1s0 ]
+2.330 NetworkServer(16:16): Disabling interface ep1s0
+2.373 NetworkServer(16:16): Config for interface ep0s8 doesn't exist, enabling DHCP for it
+2.377 NetworkServer(16:16): Disabling interface ep0s8
+2.396 NetworkServer(16:16): Running DHCPClient for interfaces: [ ep0s8 ]
+2.410 SystemServer(8:8): Service NetworkServer has exited with exit code 0
+2.451 DHCPClient(23:23): We were offered 10.0.2.15 for 2152792320
+2.451 DHCPClient(23:23): Leasing the IP 10.0.2.15 for adapter ep0s8
+2.604 WindowServer(11:11): update_virtual_and_physical_rects for screen #0: [0,0 1024x768]
+2.612 [#0 WindowServer(11:11)]: Framebuffer Console: taking 3145728 bytes
+2.625 WindowServer(11:11): update_virtual_and_physical_rects for screen #0: [0,0 1024x768]
+2.627 WindowServer(11:11): update_virtual_and_physical_rects for screen #0: [0,0 1024x768]
+3.011 WindowServer(11:11): Entering WindowServer main loop
+3.141 LoginServer(24:24): login with sid=24
+3.152 SystemServer(24:24): Activating 24 services...
+3.426 AudioServer(27:27): Exiting with runtime error: open: Permission denied (errno=13)
+3.426 SystemServer(24:24): Service AudioServer has exited with exit code 256
+3.426 SystemServer(24:24): Trying again
+3.458 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+3.532 AudioServer(39:39): Exiting with runtime error: open: Permission denied (errno=13)
+3.536 SystemServer(24:24): Service AudioServer has exited with exit code 256
+3.536 SystemServer(24:24): Third time's the charm?
+3.611 AudioServer(41:41): Exiting with runtime error: open: Permission denied (errno=13)
+3.615 SystemServer(24:24): Service AudioServer has exited with exit code 256
+3.615 SystemServer(24:24): Giving up on AudioServer. Good luck!
+3.701 ResourceGraph.Applet(32:32): Create applet: 0 with spec 'CPUGraph,#00bb00'
+3.752 ResourceGraph.Applet(32:32): Create applet: 1 with spec 'MemoryGraph,#00bbbb'
+3.752 ResourceGraph.Applet(32:32): Create applet: 2 with spec 'NetworkGraph,#bbbb00'
+3.901 ClipboardHistory.Applet(38:38): Unable to load clipboard history: open: No such file or directory (errno=2)
+3.983 utmpupdate(43:43): Updating utmp from UID=100 GID=100 EGID=5 PID=42
+4.465 [#0 VFS Sync Task(4:4)]: Ext2FS: Flushed 4 blocks to disk
+[IO WorkQueue Task(2:2)]: ASSERTION FAILED: index < m_consoles.size()
+[IO WorkQueue Task(2:2)]: ./Kernel/TTY/ConsoleManagement.cpp:74 in void Kernel::ConsoleManagement::switch_to(unsigned int)
+[IO WorkQueue Task(2:2)]: KERNEL PANIC! :^(
+[IO WorkQueue Task(2:2)]: Aborted
+[IO WorkQueue Task(2:2)]: at ./Kernel/Arch/x86_64/CPU.cpp:35 in void abort()
+[IO WorkQueue Task(2:2)]: Kernel + 0x0000000000e47e41  Kernel::__panic(char const*, unsigned int, char const*) +0xd1
+[IO WorkQueue Task(2:2)]: Kernel + 0x00000000013c9c7f  abort.localalias +0x400
+[IO WorkQueue Task(2:2)]: Kernel + 0x00000000013c987f  abort.localalias +0x0
+[IO WorkQueue Task(2:2)]: Kernel + 0x000000000122f39e  Kernel::ConsoleManagement::switch_to(unsigned int) +0x78e
+[IO WorkQueue Task(2:2)]: Kernel + 0x000000000135177f  void Kernel::Process::kernel_process_trampoline<Kernel::WorkQueue::WorkQueue(AK::StringView)::{lambda()#1}>(void*) +0x47f
